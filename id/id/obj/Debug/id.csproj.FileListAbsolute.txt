@@ -1,0 +1,16 @@
+C:\Users\25-009s\Documents\id\id\obj\Debug\id.csproj.AssemblyReference.cache
+C:\Users\25-009s\Documents\id\id\obj\Debug\MainWindow.g.cs
+C:\Users\25-009s\Documents\id\id\obj\Debug\App.g.cs
+C:\Users\25-009s\Documents\id\id\obj\Debug\id_MarkupCompile.cache
+C:\Users\25-009s\Documents\id\id\obj\Debug\id_MarkupCompile.lref
+C:\Users\25-009s\Documents\id\id\bin\Debug\id.exe.config
+C:\Users\25-009s\Documents\id\id\bin\Debug\id.exe
+C:\Users\25-009s\Documents\id\id\bin\Debug\id.pdb
+C:\Users\25-009s\Documents\id\id\obj\Debug\MainWindow.baml
+C:\Users\25-009s\Documents\id\id\obj\Debug\id.g.resources
+C:\Users\25-009s\Documents\id\id\obj\Debug\id.Properties.Resources.resources
+C:\Users\25-009s\Documents\id\id\obj\Debug\id.csproj.GenerateResource.cache
+C:\Users\25-009s\Documents\id\id\obj\Debug\id.csproj.CoreCompileInputs.cache
+C:\Users\25-009s\Documents\id\id\obj\Debug\id.exe
+C:\Users\25-009s\Documents\id\id\obj\Debug\id.pdb
+C:\Users\25-009s\Documents\id\id\obj\Debug\id.exe.config

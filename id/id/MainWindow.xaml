@@ -1,0 +1,43 @@
+﻿<Window x:Class="id.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:id"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="451" Width="800">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Height="40" Margin="335,10,0,0" TextWrapping="Wrap" Text="Employee" VerticalAlignment="Top" Width="171" FontSize="26"/>
+
+        <DataGrid x:Name="Menu" ItemsSource="{Binding Employees}" AutoGenerateColumns="False"  Margin="24,58,294,70">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="ID" Binding="{Binding ID}" Width="*"/>
+                <DataGridTextColumn Header="Name" Binding="{Binding Name}" Width="*"/>
+                <DataGridTextColumn Header="Title" Binding="{Binding Title}" Width="*"/>
+                <DataGridTextColumn Header="Department" Binding="{Binding Department}" Width="*"/>
+                <DataGridTextColumn Header="Salary" Binding="{Binding Salary}" Width="*"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+
+        <TextBlock HorizontalAlignment="Left" Height="19" Margin="529,54,0,0" TextWrapping="Wrap" Text="ID" VerticalAlignment="Top" Width="171" FontSize="13"/>
+        <TextBox Name="IDTextBox" HorizontalAlignment="Left" Height="26" Margin="529,73,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="261"/>
+
+        <TextBlock HorizontalAlignment="Left" Height="19" Margin="529,114,0,0" TextWrapping="Wrap" Text="Name" VerticalAlignment="Top" Width="171" FontSize="13"/>
+        <TextBox Name="NameTextBox" HorizontalAlignment="Left" Height="26" Margin="529,133,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="261"/>
+
+        <TextBlock HorizontalAlignment="Left" Height="19" Margin="529,181,0,0" TextWrapping="Wrap" Text="Title" VerticalAlignment="Top" Width="171" FontSize="13"/>
+        <TextBox Name="TitleTextBox" HorizontalAlignment="Left" Height="26" Margin="529,200,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="261"/>  
+
+        <TextBlock HorizontalAlignment="Left" Height="19" Margin="529,249,0,0" TextWrapping="Wrap" Text="Department" VerticalAlignment="Top" Width="171" FontSize="13"/>
+        <TextBox Name="DeptTextBox" HorizontalAlignment="Left" Height="26" Margin="529,268,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="261"/>
+
+        <TextBlock HorizontalAlignment="Left" Height="19" Margin="529,319,0,0" TextWrapping="Wrap" Text="Salary" VerticalAlignment="Top" Width="171" FontSize="13"/>
+        <TextBox Name="SalaryTextBox" HorizontalAlignment="Left" Height="26" Margin="529,338,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="261"/>
+
+        <Button Content="Add" HorizontalAlignment="Left" Height="27" Margin="24,387,0,0" VerticalAlignment="Top" Width="109" Click="AddButton_Click"/>
+        <Button Content="Remove" HorizontalAlignment="Left" Height="27" Margin="239,387,0,0" VerticalAlignment="Top" Width="109" Click="RemoveButton_Click"/>
+        <Button Content="Update" HorizontalAlignment="Left" Height="27" Margin="458,387,0,0" VerticalAlignment="Top" Width="109" Click="UpdateButton_Click"/>
+        <Button Content="Clear" HorizontalAlignment="Left" Height="27" Margin="660,387,0,0" VerticalAlignment="Top" Width="108" Click="ClearButton_Click"/>
+    </Grid>
+</Window>
